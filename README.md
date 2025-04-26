@@ -15,7 +15,7 @@ Built with MongoDB, Express.js, React, and Node.js.
 ![light mode](https://github.com/user-attachments/assets/16c4d9c1-211d-4213-81e6-135ff8b44ced)
 
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ###  Client Setup
 
