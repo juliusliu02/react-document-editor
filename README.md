@@ -5,12 +5,12 @@ A lightweight, browser-based document editor built with React, Tiptap (SimpleEdi
 
 ## Features
 
-- ✍️ **Text Editing** with headings, lists, bold, italics, blockquotes, and more !
-- 💻 **Syntax Highlighting** for code blocks using lowlight + highlight.js.
-- 🌑 **Dark Mode** support based on system preferences.
-- 💾 **Local Storage**: User-created documents are saved in the browser
-- 📁 **File & Folder Management**: Organize your documents in a folder structure.
-- ⚛️ Built with **React**, **Tiptap**, **Tailwind CSS**, and **ShadCN UI** components.
+- **Text Editing** with headings, lists, bold, italics, blockquotes, and more !
+- **Syntax Highlighting** for code blocks using lowlight + highlight.js.
+- **Dark Mode** support based on system preferences.
+- **Local Storage**: User-created documents are saved in the browser
+- **File & Folder Management**: Organize your documents in a folder structure.
+- Built with **React**, **Tiptap**, **Tailwind CSS**, **DnD** and **ShadCN UI** components.
 
 
 ## 🛠️ Setup Instructions
