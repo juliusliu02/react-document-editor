@@ -1,7 +1,6 @@
 # react-document-editor
 
 A lightweight, browser-based document editor built with React, Tiptap (SimpleEditor), and Tailwind CSS.
-It supports rich text formatting, syntax-highlighted code blocks, and dark mode, with all documents saved locally in the browser.
 
 
 ## Features
