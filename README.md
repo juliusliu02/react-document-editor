@@ -3,11 +3,11 @@
 Web-based document editor built with React. 
 
 ## Features
-- Rich Text Editing with headings, lists, bold, italics, blockquotes.
-- Local Storage: User-created documents are saved in the browser — no accounts required.
+- Local Storage
 - Syntax Highlighting for code blocks using lowlight + highlight.js.
 - File & Folder Management: Organize your documents in a folder structure.
 - Uses React, Tiptap, Tailwind CSS, DnD and ShadCN UI components.
+- Local Storage
   
 ![dark mode](https://github.com/user-attachments/assets/ae7ca423-fa35-4071-b628-422f7e73aeba)
 
