@@ -10,9 +10,9 @@ Built with MongoDB, Express.js, React, and Node.js.
 - **Syntax Highlighting** for code blocks using lowlight + highlight.js.
 - **File & Folder Management**: Organize your documents in a folder structure.
 - Uses **React**, **Tiptap**, **Tailwind CSS**, **DnD** and **ShadCN UI** components.
-
-![light mode](https://github.com/user-attachments/assets/16c4d9c1-211d-4213-81e6-135ff8b44ced)
+  
 ![dark mode](https://github.com/user-attachments/assets/ae7ca423-fa35-4071-b628-422f7e73aeba)
+![light mode](https://github.com/user-attachments/assets/16c4d9c1-211d-4213-81e6-135ff8b44ced)
 
 
 ## 🛠️ Setup Instructions
