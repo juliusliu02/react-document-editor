@@ -1,7 +1,6 @@
-# auth-otp-mern
+#  react-document-editor
 
-A login, signup, and password reset system using OTP verification.  
-Built with MongoDB, Express.js, React, and Node.js.
+A document editor made with React
 
 
 ## Features
