@@ -1,7 +1,6 @@
 #  react-document-editor
 
-A document editor made with React
-
+Web-based document editor built with React. 
 
 ## Features
 - **Rich Text Editing** with headings, lists, bold, italics, blockquotes.
