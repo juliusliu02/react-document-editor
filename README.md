@@ -12,6 +12,8 @@ A lightweight, browser-based document editor built with React, Tiptap (SimpleEdi
 - **File & Folder Management**: Organize your documents in a folder structure.
 - Built with **React**, **Tiptap**, **Tailwind CSS**, **DnD** and **ShadCN UI** components.
 
+![dark mode](https://github.com/user-attachments/assets/4d431474-fc50-4d71-b786-e4648bd76907)
+![light mode](https://github.com/user-attachments/assets/4be95efd-d49b-48bc-a11c-4cb5bae16506)
 
 ## 🛠️ Setup Instructions
 
