@@ -80,7 +80,7 @@ import type { FileType, FolderType } from '@/props'
 
 // import styles for syntax highlighting 
 
-import 'highlight.js/styles/github.css'
+import 'highlight.js/styles/atom-one-dark.css'
 
 import { createLowlight } from 'lowlight'
 import CodeBlockLowlight from '@tiptap/extension-code-block-lowlight'
