@@ -279,18 +279,17 @@ export function SimpleEditor({ currentFile, setNavItems }: SimpleEditorProps) {
   }, [isMobile, mobileView])
 
   return (
-    <div className="editor-theme flex flex-col h-screen w-full">
       <EditorContext.Provider value={{ editor }}>
-        <Toolbar className="sticky top-10 z-10" ref={toolbarRef} style={isMobile ? { bottom: `calc(100% - ${windowSize.height - rect.y}px)` } : {}}>
+        <Toolbar ref={toolbarRef} style={isMobile ? { bottom: `calc(100% - ${windowSize.height - rect.y}px)` } : {}}>
           {mobileView === "main" ? <MainToolbarContent onHighlighterClick={() => setMobileView("highlighter")} onLinkClick={() => setMobileView("link")} isMobile={isMobile} /> : <MobileToolbarContent type={mobileView === "highlighter" ? "highlighter" : "link"} onBack={() => setMobileView("main")} />}
         </Toolbar>
-        <ScrollArea className="">
-          <div className="mt-10">
-            <EditorContent editor={editor} role="presentation" className="ProseMirror tiptap simple-editor-content" />
-          </div>
-        </ScrollArea>
+        <div className="content-wrapper">
+          <EditorContent
+            editor={editor}
+            role="presentation"
+            className="simple-editor-content"
+          />
+        </div>
       </EditorContext.Provider>
-    </div>
-
   )
 }

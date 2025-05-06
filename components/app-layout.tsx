@@ -52,8 +52,8 @@ export default function AppLayout() {
     return (
         <SidebarProvider>
             <AppSidebar navItems={navItems} setNavItems={setNavItems} setCurrentFile={setCurrentFile} openFolders={openFolders} setOpenFolders={setOpenFolders} />
-            <SidebarInset className="flex flex-col h-screen">
-                <header className="flex sticky top-0 bg-background h-10 shrink-0 items-center gap-2 border-b px-4">
+            <SidebarInset className="h-screen overflow-hidden">
+                <header className="flex bg-background h-10 shrink-0 items-center gap-2 border-b px-4">
                     <SidebarTrigger className="-ml-1" />
                     <Separator orientation="vertical" className="mr-2 h-4" />
                     <Breadcrumb>
@@ -86,7 +86,7 @@ export default function AppLayout() {
                     </Breadcrumb>
                 </header>
 
-                <main className="flex flex-col flex-1 overflow-y-auto ">
+                <main className="overflow-y-scroll overscroll-none">
                     <SimpleEditor currentFile={currentFile || { folderId: -1, file: defaultFile }} navItems={navItems} setNavItems={setNavItems} />
                 </main>
             </SidebarInset>
