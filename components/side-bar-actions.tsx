@@ -17,10 +17,10 @@ export function SideBarActions({
             <SidebarGroup className="py-0">
                 <SidebarGroupContent className="relative">
                     <div className="flex justify-center space-x-2">
-                        <Button type="button" className="transition-none" variant="secondary" onClick={onAddFolder}>
+                        <Button type="button" variant="outline" onClick={onAddFolder}>
                             Add Folder
                         </Button>
-                        <Button type="button" className="transition-none" variant="secondary"  onClick={onAddFile}>
+                        <Button type="button" variant="outline"  onClick={onAddFile}>
                             Add File
                         </Button>
                     </div>
