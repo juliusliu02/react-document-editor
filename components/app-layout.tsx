@@ -67,7 +67,7 @@ export default function AppLayout() {
                                                 e.preventDefault();
                                                 setOpenFolders((prev) => ({
                                                     ...prev,
-                                                    [currentFolder.id]: true,
+                                                    [currentFolder.id]: !prev[currentFolder.id],
                                                 }));
                                             }}
                                         >
