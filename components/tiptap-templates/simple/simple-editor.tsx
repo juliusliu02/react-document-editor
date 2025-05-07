@@ -19,8 +19,6 @@ import { Underline } from "@tiptap/extension-underline"
 import { Link } from "@/components/tiptap-extension/link-extension"
 import { Selection } from "@/components/tiptap-extension/selection-extension"
 import { TrailingNode } from "@/components/tiptap-extension/trailing-node-extension"
-import { ScrollArea } from "@/components/ui/scroll-area";
-
 
 // --- UI Primitives ---
 import { Button } from "@/components/tiptap-ui-primitive/button"
