@@ -2,7 +2,6 @@
 
 import * as React from "react";
 import { ChevronRight } from "lucide-react";
-import { SearchForm } from "@/components/search-form";
 import { SideBarActions } from "@/components/side-bar-actions";
 import {
   Collapsible,
@@ -28,7 +27,6 @@ import {
   ContextMenuTrigger,
   ContextMenuSeparator,
 } from "@/components/ui/context-menu";
-import { VersionSwitcher } from "./version-switcher";
 import type { FileType, FolderType } from "@/props";
 import { Input } from "@/components/ui/input"
 
@@ -49,7 +47,6 @@ import {
   useSortable,
   arrayMove,
 } from "@dnd-kit/sortable"
-import { CSS } from "@dnd-kit/utilities";
 
 // ---------------------------------------------------------------------------
 //  Sortable wrappers --------------------------------------------------------
@@ -85,8 +82,6 @@ function SortableFile({ file, children }: SortableFileProps) {
     // animate *any* layout change, not just same‐list moves
     animateLayoutChanges: () => false,
   });
-
-
 
 
   return (
