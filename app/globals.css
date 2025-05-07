@@ -114,8 +114,6 @@
   --sidebar-ring: oklch(0.552 0.016 285.938);
 }
 
-
-
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -123,4 +121,9 @@
   body {
     @apply bg-background text-foreground;
   }
+
+   /* stops button flash when changing theme  */
+    .dark button {
+      transition-duration: 0s !important;
+    }
 }
