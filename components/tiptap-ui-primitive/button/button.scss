@@ -15,8 +15,8 @@
   justify-content: center;
   border-radius: var(--tt-radius-lg, 0.75rem);
   transition-property: background, color, opacity;
-  transition-duration: var(--tt-transition-duration-default);
-  transition-timing-function: var(--tt-transition-easing-default);
+  transition-duration: var(--tt-transition-duration-short);
+  transition-timing-function: var(--tt-transition-easing-short);
 
   // focus-visible
   &:focus-visible {
